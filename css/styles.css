@@ -1,0 +1,162 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-content: center;
+}
+
+.nav {
+  padding: 10px;
+  font-size: 13px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.nav a:visited {
+  color: black;
+}
+
+#menu__logo {
+  width: 22px;
+  height: 22px;
+}
+
+.nav2 {
+  padding: 10px;
+  font-size: 13px;
+}
+.nav2 a {
+  text-decoration: none;
+  color: white;
+}
+
+#connexion {
+  background-color: #4885ed;
+  height: 16px;
+  border-radius: 5px;
+  color: white;
+  margin-left: 5px;
+}
+
+#connexion a:hover {
+  text-decoration: none;
+}
+
+#connexion a:visited {
+  color: white;
+}
+
+#conteneur {
+  text-align: center;
+  padding-top: 160px;
+  padding-bottom: 20px;
+}
+
+#form__search {
+  width: 550px;
+  line-height: 30px;
+  border-radius: 30px;
+  border: 1px #DCDCDC solid;
+}
+
+button {
+  font-size: 15px;
+  background-color: #F0F3F3;
+  border: none;
+  padding: 10px;
+  margin: 15px;
+}
+
+#langue {
+  text-align: center;
+  font-size: 13px;
+}
+
+#langue a {
+  color: #4885ed;
+}
+
+#langue a:visited {
+  color: #4885ed;
+}
+
+footer {
+  background-color: #F0F3F3;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: -1px;
+}
+
+footer p {
+  margin-left: 15px;
+  color: grey;
+}
+
+hr {
+  border: 1px #DCDCDC solid;
+}
+
+#footer__responsive {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: grey;
+}
+
+#footer__responsive a {
+  color: grey;
+  text-decoration: none;
+}
+
+#footer__responsive a:hover {
+  text-decoration: underline;
+}
+
+#footer__responsive a:visited {
+  text-decoration: none;
+}
+
+.footer {
+  height: 50px;
+  width: 600px;
+}
+
+.footer, .footer ul, .footer li, .footer p {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+li {
+  padding: 10px;
+}
+
+@media screen and (max-width: 1300px) {
+  #footer__responsive {
+    flex-direction: column;
+    align-items: center;
+    }
+  .footer:nth-child(1){
+    order: 2;
+  }
+  .footer:nth-child(2){
+    order: 1;
+  }
+  .footer:nth-child(3){
+    order: 3;
+  }
+}
